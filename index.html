@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kebijakan Privasi aplikasi KampusKu">
-    <title>Kebijakan Privasi | KampusKu</title>
+    <title>Kebijakan Privasi KampusKu</title>
 
     <style>
         :root {
@@ -156,23 +157,25 @@
             margin-bottom: 7px;
         }
 
-        .contact-box,
-        .notice-box {
+        .contact-box {
             padding: 18px;
             border-radius: 14px;
             background: var(--pink);
             border: 1px solid #efd7e0;
-        }
-
-        .contact-box p {
-            margin-bottom: 8px;
             overflow-wrap: anywhere;
         }
 
-        .notice-box {
-            margin-top: 12px;
+        .contact-box a {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .notice {
+            margin-top: 14px;
+            padding: 16px;
+            border: 1px solid #f0dfb5;
+            border-radius: 12px;
             background: #fff8e9;
-            border-color: #f0dfb5;
             font-size: 14px;
         }
 
@@ -232,230 +235,354 @@
 
 <body>
 
-    <header class="header">
-        <div class="container">
-            <div class="brand">
-                <div class="brand-logo">K</div>
-                <span>KampusKu</span>
-            </div>
+<header class="header">
+    <div class="container">
 
-            <div class="hero">
-                <p class="hero-label">Privasi dan perlindungan data</p>
-                <h1>Kebijakan Privasi</h1>
-                <p>
-                    Kebijakan ini menjelaskan bagaimana informasi pengguna
-                    dikelola saat menggunakan aplikasi KampusKu.
-                </p>
-            </div>
+        <div class="brand">
+            <div class="brand-logo">K</div>
+            <span>KampusKu</span>
         </div>
-    </header>
 
-    <main class="container">
-        <article class="policy-card">
+        <div class="hero">
+            <p class="hero-label">Privasi dan Perlindungan Data</p>
+            <h1>Kebijakan Privasi</h1>
+            <p>
+                Kebijakan ini menjelaskan bagaimana KampusKu menangani
+                informasi pengguna ketika menggunakan aplikasi.
+            </p>
+        </div>
 
-            <span class="updated">
-                Terakhir diperbarui: 13 Oktober 2026
-            </span>
+    </div>
+</header>
 
-            <section class="policy-section">
-                <h2>1. Pendahuluan</h2>
-                <p>
-                    Selamat datang di KampusKu, aplikasi mobile yang dirancang
-                    untuk membantu mahasiswa mengakses informasi seputar
-                    kegiatan akademik dan kehidupan kampus.
-                </p>
-                <p>
-                    Kebijakan Privasi ini menjelaskan bagaimana informasi
-                    pengguna dapat dikumpulkan, digunakan, disimpan, dan
-                    dikelola ketika menggunakan aplikasi KampusKu.
-                </p>
-            </section>
+<main class="container">
+<article class="policy-card">
 
-            <section class="policy-section">
-                <h2>2. Informasi yang Dikumpulkan</h2>
-                <p>
-                    Sesuai fitur yang digunakan dan implementasi aplikasi,
-                    informasi yang dapat diproses meliputi:
-                </p>
-                <ul>
-                    <li>
-                        <strong>Informasi akun:</strong> nama, alamat email,
-                        dan kata sandi untuk pendaftaran serta autentikasi,
-                        apabila informasi tersebut diminta.
-                    </li>
-                    <li>
-                        <strong>Informasi akademik:</strong> fakultas,
-                        program studi, angkatan, atau kelas apabila
-                        dikumpulkan untuk menampilkan informasi yang sesuai.
-                    </li>
-                    <li>
-                        <strong>Bookmark:</strong> informasi yang dipilih
-                        pengguna untuk disimpan melalui fitur bookmark.
-                    </li>
-                    <li>
-                        <strong>Chatbot:</strong> pertanyaan yang dikirim
-                        pengguna untuk memperoleh informasi mengenai
-                        pengumuman dan event kampus.
-                    </li>
-                </ul>
-                <p>
-                    Informasi yang benar-benar diproses bergantung pada
-                    fitur yang digunakan dan implementasi teknis aplikasi.
-                </p>
-            </section>
+    <span class="updated">
+        Terakhir diperbarui: 13 Oktober 2026
+    </span>
 
-            <section class="policy-section">
-                <h2>3. Tujuan Penggunaan Informasi</h2>
-                <p>Informasi digunakan sesuai kebutuhan untuk:</p>
-                <ol>
-                    <li>Mendukung pendaftaran dan login pengguna.</li>
-                    <li>Menampilkan informasi jadwal kuliah.</li>
-                    <li>Menyediakan pengumuman dan event kampus.</li>
-                    <li>Mendukung fitur bookmark.</li>
-                    <li>Memproses pertanyaan pada chatbot.</li>
-                    <li>Menjaga fungsi dan keamanan aplikasi.</li>
-                </ol>
-            </section>
+    <section class="policy-section">
+        <h2>1. Pendahuluan</h2>
 
-            <section class="policy-section">
-                <h2>4. Penyimpanan dan Keamanan Data</h2>
-                <p>
-                    KampusKu menggunakan backend dan basis data untuk
-                    mendukung fungsi aplikasi. Pengelola perlu menerapkan
-                    langkah keamanan yang sesuai untuk mengurangi risiko
-                    akses atau pengungkapan informasi tanpa izin.
-                </p>
-                <p>
-                    Kata sandi harus ditangani dengan mekanisme penyimpanan
-                    yang aman dan tidak disimpan sebagai teks biasa.
-                    Meskipun langkah keamanan diterapkan, tidak ada sistem
-                    yang dapat dijamin sepenuhnya bebas risiko.
-                </p>
-            </section>
+        <p>
+            KampusKu adalah aplikasi mobile yang dirancang untuk membantu
+            mahasiswa memperoleh informasi akademik dan kegiatan kampus.
+            Fitur aplikasi meliputi login dan pendaftaran akun, jadwal
+            kuliah, pengumuman, event, bookmark, profil pengguna, serta
+            chatbot untuk membantu menemukan informasi pengumuman dan event.
+        </p>
 
-            <section class="policy-section">
-                <h2>5. Pembagian Informasi kepada Pihak Ketiga</h2>
-                <p>
-                    Informasi dapat diproses oleh penyedia layanan teknis
-                    yang diperlukan untuk menjalankan aplikasi, misalnya
-                    penyedia hosting backend atau basis data, sesuai
-                    konfigurasi layanan yang digunakan.
-                </p>
-                <p>
-                    KampusKu tidak bermaksud menjual informasi pribadi
-                    pengguna. Pengelolaan dan pembagian data harus sesuai
-                    dengan kebutuhan layanan serta ketentuan yang berlaku.
-                </p>
-            </section>
+        <p>
+            Kebijakan Privasi ini menjelaskan bagaimana informasi pengguna
+            dapat dikumpulkan, digunakan, disimpan, dan dikelola ketika
+            menggunakan aplikasi KampusKu.
+        </p>
 
-            <section class="policy-section">
-                <h2>6. Jadwal, Pengumuman, dan Event</h2>
-                <p>
-                    KampusKu menyediakan informasi jadwal kuliah,
-                    pengumuman, dan event kampus. Informasi jadwal dapat
-                    disesuaikan berdasarkan data akademik yang tersedia.
-                </p>
-                <p>
-                    Untuk memastikan informasi penting, pengguna disarankan
-                    memeriksa sumber resmi dari pihak kampus.
-                </p>
-            </section>
+        <p>
+            Dengan menggunakan KampusKu, pengguna diharapkan membaca dan
+            memahami kebijakan privasi ini.
+        </p>
+    </section>
 
-            <section class="policy-section">
-                <h2>7. Chatbot</h2>
-                <p>
-                    Chatbot KampusKu menggunakan data dan backend KampusKu,
-                    bukan layanan AI eksternal. Chatbot dirancang untuk
-                    membantu menjawab pertanyaan mengenai pengumuman dan
-                    event berdasarkan data serta kemampuan yang tersedia.
-                </p>
-                <p>
-                    Pengguna disarankan tidak memasukkan kata sandi,
-                    informasi keuangan, atau data pribadi sensitif ke
-                    dalam percakapan chatbot.
-                </p>
-            </section>
+    <section class="policy-section">
+        <h2>2. Informasi yang Kami Kelola</h2>
 
-            <section class="policy-section">
-                <h2>8. Penyimpanan dan Penghapusan Data</h2>
-                <p>
-                    Informasi disimpan sesuai kebutuhan operasional aplikasi
-                    dan tujuan pengumpulannya, dengan memperhatikan
-                    ketentuan yang berlaku.
-                </p>
-                <p>
-                    Saat ini, KampusKu belum menyediakan fitur atau prosedur
-                    penghapusan akun. Pengelola perlu menyiapkan mekanisme
-                    agar pengguna dapat meminta penghapusan akun dan data
-                    terkait, termasuk melalui halaman web, sebelum aplikasi
-                    dipublikasikan di Google Play.
-                </p>
-                <div class="notice-box">
-                    <strong>Catatan:</strong> jangan menganggap permintaan
-                    penghapusan akun sudah tersedia. Bagian ini perlu
-                    diperbarui setelah mekanisme penghapusan benar-benar
-                    dibuat dan dapat digunakan.
-                </div>
-            </section>
+        <p>
+            Informasi yang diproses dapat berbeda sesuai fitur yang
+            digunakan dan data yang diberikan pengguna.
+        </p>
 
-            <section class="policy-section">
-                <h2>9. Hak Pengguna</h2>
-                <p>
-                    Pengguna dapat membaca kebijakan ini untuk mengetahui
-                    bagaimana informasi dikelola. Pengelola perlu menyediakan
-                    kontak yang aktif agar pengguna dapat mengajukan
-                    pertanyaan atau permintaan terkait data pribadi.
-                </p>
-            </section>
+        <p><strong>A. Informasi Akun</strong></p>
 
-            <section class="policy-section">
-                <h2>10. Privasi Anak</h2>
-                <p>
-                    KampusKu ditujukan untuk mendukung kebutuhan informasi
-                    mahasiswa dan tidak secara khusus dirancang untuk
-                    mengumpulkan informasi pribadi anak-anak. Pengelola
-                    akan meninjau laporan mengenai pengumpulan informasi
-                    yang tidak semestinya dan mengambil tindakan yang sesuai.
-                </p>
-            </section>
+        <p>Ketika pengguna mendaftar atau login, informasi yang dapat diproses meliputi:</p>
 
-            <section class="policy-section">
-                <h2>11. Perubahan Kebijakan Privasi</h2>
-                <p>
-                    Kebijakan ini dapat diperbarui apabila terdapat
-                    perubahan fitur atau cara pengelolaan data. Versi
-                    terbaru akan dipublikasikan pada halaman ini beserta
-                    tanggal pembaruannya.
-                </p>
-            </section>
+        <ul>
+            <li>Nama pengguna.</li>
+            <li>Alamat email.</li>
+            <li>Kata sandi yang digunakan untuk autentikasi.</li>
+            <li>Informasi akun yang ditampilkan pada halaman profil.</li>
+        </ul>
 
-            <section class="policy-section">
-                <h2>12. Kontak</h2>
-                <div class="contact-box">
-                    <p>
-                        <strong>Nama aplikasi:</strong> KampusKu
-                    </p>
-                    <p>
-                        <strong>Pengelola:</strong> Pengelola aplikasi KampusKu
-                    </p>
-                    <p>
-                        <strong>Email kontak privasi:</strong>
-                        Belum ditentukan.
-                    </p>
-                    <p>
-                        Alamat email aktif harus ditambahkan sebelum
-                        kebijakan ini dipublikasikan agar pengguna memiliki
-                        cara untuk menghubungi pengelola.
-                    </p>
-                </div>
-            </section>
+        <p>
+            Informasi tersebut digunakan untuk mendukung pembuatan akun,
+            proses login, dan pengelolaan sesi pengguna. Kata sandi
+            seharusnya disimpan menggunakan mekanisme hashing yang aman,
+            bukan sebagai teks biasa.
+        </p>
 
-        </article>
-    </main>
+        <p><strong>B. Informasi Akademik</strong></p>
 
-    <footer class="footer">
-        <p>&copy; 2026 KampusKu. Kebijakan Privasi.</p>
-    </footer>
+        <p>
+            Apabila tersedia dan dikaitkan dengan akun pengguna, informasi
+            akademik dapat meliputi fakultas, program studi, angkatan,
+            atau kelas. Informasi ini digunakan untuk menampilkan jadwal
+            kuliah yang sesuai dengan data akademik yang tersedia.
+        </p>
+
+        <p><strong>C. Bookmark</strong></p>
+
+        <p>
+            Ketika pengguna menyimpan pengumuman atau event sebagai
+            bookmark, aplikasi dapat memproses informasi yang diperlukan
+            untuk menyimpan dan menampilkan kembali item tersebut.
+        </p>
+
+        <p><strong>D. Informasi Chatbot</strong></p>
+
+        <p>
+            Pertanyaan yang dikirimkan melalui chatbot dapat diproses
+            oleh backend KampusKu untuk menghasilkan jawaban terkait
+            pengumuman dan event yang tersedia.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>3. Sumber Informasi</h2>
+
+        <p>
+            Informasi yang ditampilkan KampusKu dapat berasal dari data
+            yang dikelola pada backend dan basis data KampusKu, termasuk
+            informasi akun, jadwal kuliah, pengumuman, dan event.
+        </p>
+
+        <p>
+            Ketersediaan dan ketepatan informasi bergantung pada data
+            yang dimasukkan atau diperbarui oleh pengelola aplikasi.
+            Pengguna disarankan memeriksa sumber resmi kampus apabila
+            membutuhkan konfirmasi informasi akademik.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>4. Penggunaan Informasi</h2>
+
+        <p>Informasi digunakan untuk mendukung fungsi utama KampusKu, yaitu:</p>
+
+        <ul>
+            <li>Membuat dan mengelola akun pengguna.</li>
+            <li>Melakukan autentikasi saat login.</li>
+            <li>Menampilkan informasi profil pengguna.</li>
+            <li>Menampilkan jadwal kuliah sesuai data akademik.</li>
+            <li>Menyediakan pengumuman dan event kampus.</li>
+            <li>Menyimpan dan menampilkan bookmark.</li>
+            <li>Memproses pertanyaan melalui chatbot.</li>
+            <li>Menjaga fungsi dan keamanan aplikasi.</li>
+        </ul>
+
+        <p>
+            Informasi pengguna seharusnya hanya digunakan sesuai tujuan
+            layanan dan ketentuan yang berlaku.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>5. Penyimpanan Data</h2>
+
+        <p>
+            KampusKu menggunakan backend dan basis data untuk mendukung
+            fungsi aplikasi, termasuk proses akun dan penyediaan informasi
+            yang diperlukan oleh fitur aplikasi.
+        </p>
+
+        <p>
+            Data yang tersimpan pada server dikelola sesuai kebutuhan
+            operasional aplikasi. Data tertentu juga dapat diproses
+            sementara pada perangkat ketika pengguna menggunakan aplikasi.
+        </p>
+
+        <p>
+            Pengguna disarankan menjaga keamanan perangkat serta tidak
+            membagikan informasi login kepada orang lain.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>6. Pembagian Data dengan Pihak Ketiga</h2>
+
+        <p>
+            KampusKu menggunakan layanan backend dan basis data untuk
+            menjalankan fitur aplikasi. Penyedia infrastruktur yang
+            digunakan untuk mengoperasikan layanan tersebut dapat
+            memproses data teknis sesuai kebutuhan penyediaan layanan.
+        </p>
+
+        <p>
+            Chatbot KampusKu menggunakan backend KampusKu dan tidak
+            menggunakan layanan AI eksternal berdasarkan implementasi
+            yang dijelaskan saat ini.
+        </p>
+
+        <p>
+            KampusKu tidak bermaksud menjual informasi pribadi pengguna.
+            Apabila penggunaan layanan pihak ketiga berubah, kebijakan
+            ini perlu diperbarui agar sesuai dengan praktik yang sebenarnya.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>7. Chatbot</h2>
+
+        <p>
+            Chatbot KampusKu dirancang untuk membantu pengguna memperoleh
+            informasi mengenai pengumuman dan event kampus berdasarkan
+            data yang tersedia pada backend KampusKu.
+        </p>
+
+        <p>
+            Chatbot tidak ditujukan untuk menerima informasi pribadi
+            yang sensitif. Pengguna disarankan untuk tidak memasukkan
+            kata sandi, informasi keuangan, atau informasi rahasia
+            ke dalam percakapan.
+        </p>
+
+        <p>
+            Jawaban chatbot dapat memiliki keterbatasan. Untuk informasi
+            yang penting, pengguna sebaiknya melakukan konfirmasi melalui
+            sumber resmi kampus.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>8. Keamanan Data</h2>
+
+        <p>
+            Pengelola KampusKu perlu menerapkan langkah-langkah keamanan
+            yang sesuai untuk mengurangi risiko akses, perubahan,
+            pengungkapan, atau penghapusan informasi tanpa izin.
+        </p>
+
+        <p>
+            Kata sandi harus ditangani menggunakan mekanisme penyimpanan
+            yang aman. Pengguna juga bertanggung jawab menjaga kerahasiaan
+            kredensial akun mereka.
+        </p>
+
+        <p>
+            Meskipun langkah-langkah keamanan diterapkan, tidak ada
+            sistem penyimpanan atau transmisi data yang dapat dijamin
+            sepenuhnya bebas dari risiko.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>9. Data yang Tidak Secara Khusus Diminta</h2>
+
+        <p>
+            Berdasarkan fitur KampusKu yang dijelaskan saat ini,
+            aplikasi berfokus pada informasi akun, informasi akademik,
+            jadwal kuliah, pengumuman, event, bookmark, dan pertanyaan
+            chatbot.
+        </p>
+
+        <p>
+            Kebijakan ini tidak menyatakan bahwa aplikasi mengumpulkan
+            data GPS, kontak, SMS, riwayat panggilan, data kesehatan,
+            atau informasi pembayaran. Jika aplikasi atau layanan
+            pendukung kelak mengakses kategori data tambahan, kebijakan
+            ini harus diperbarui sesuai praktik aktual.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>10. Iklan</h2>
+
+        <p>
+            Bagian ini perlu disesuaikan dengan kondisi aplikasi yang
+            sebenarnya. Jika KampusKu tidak menampilkan iklan dan tidak
+            menggunakan SDK iklan, pengelola dapat menyatakan bahwa
+            aplikasi tidak menampilkan iklan pada versi saat ini.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>11. Anak-Anak</h2>
+
+        <p>
+            KampusKu dirancang untuk mendukung kebutuhan informasi
+            mahasiswa. Aplikasi tidak secara khusus dirancang untuk
+            mengumpulkan informasi pribadi anak-anak.
+        </p>
+
+        <p>
+            Apabila pengelola mengetahui adanya pengumpulan informasi
+            yang tidak semestinya, pengelola akan meninjau kondisi
+            tersebut dan mengambil tindakan yang sesuai dengan
+            ketentuan yang berlaku.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>12. Hak Pengguna dan Penghapusan Akun</h2>
+
+        <p>
+            Pengguna dapat membaca kebijakan ini untuk mengetahui
+            bagaimana informasi dikelola. Pengguna juga dapat menghubungi
+            pengelola melalui alamat email yang tercantum di bawah
+            untuk menyampaikan pertanyaan atau kekhawatiran mengenai
+            privasi.
+        </p>
+
+        <p>
+            Saat ini, KampusKu belum menyediakan fitur atau prosedur
+            penghapusan akun yang telah dikonfirmasi tersedia.
+            Mekanisme penghapusan akun dan data terkait, termasuk
+            jalur permintaan melalui web, perlu disiapkan dan diuji
+            sebelum aplikasi dipublikasikan di Google Play.
+        </p>
+
+        <div class="notice">
+            <strong>Catatan untuk pengelola:</strong>
+            perbarui bagian ini setelah mekanisme penghapusan akun
+            benar-benar tersedia dan dapat digunakan oleh pengguna.
+            Jangan menyatakan bahwa akun dapat dihapus melalui fitur
+            yang belum dibuat.
+        </div>
+    </section>
+
+    <section class="policy-section">
+        <h2>13. Perubahan Kebijakan Privasi</h2>
+
+        <p>
+            Kebijakan Privasi ini dapat diperbarui apabila terdapat
+            perubahan fitur aplikasi, teknologi, layanan pendukung,
+            atau cara KampusKu menangani data pengguna.
+        </p>
+
+        <p>
+            Apabila terdapat perubahan, tanggal "Terakhir diperbarui"
+            pada halaman ini akan disesuaikan. Pengguna disarankan
+            memeriksa halaman Kebijakan Privasi secara berkala.
+        </p>
+    </section>
+
+    <section class="policy-section">
+        <h2>14. Kontak</h2>
+
+        <div class="contact-box">
+            <p><strong>Nama Aplikasi:</strong> KampusKu</p>
+
+            <p>
+                <strong>Email Pengembang:</strong>
+                <a href="mailto:andisalsabila028@gmail.com">
+                    andisalsabila028@gmail.com
+                </a>
+            </p>
+
+            <p>
+                Jika Anda memiliki pertanyaan, masukan, atau permintaan
+                terkait kebijakan privasi dan pengelolaan data, silakan
+                menghubungi pengembang melalui alamat email tersebut.
+            </p>
+        </div>
+    </section>
+
+</article>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 KampusKu. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
