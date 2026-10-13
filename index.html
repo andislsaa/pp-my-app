@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kebijakan Privasi aplikasi KampusKu">
+    <title>Kebijakan Privasi | KampusKu</title>
+
+    <style>
+        :root {
+            --primary: #741f3a;
+            --primary-dark: #4d1428;
+            --pink: #f8edf1;
+            --text: #29232a;
+            --muted: #6d6670;
+            --border: #eadfe3;
+            --background: #faf7f8;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.75;
+            color: var(--text);
+            background: var(--background);
+        }
+
+        .header {
+            background: linear-gradient(
+                135deg,
+                var(--primary-dark),
+                var(--primary)
+            );
+            color: var(--white);
+            padding: 30px 20px 65px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 23px;
+            font-weight: 800;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 13px;
+            background: var(--white);
+            color: var(--primary);
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+        .hero {
+            margin-top: 40px;
+        }
+
+        .hero-label {
+            margin-bottom: 8px;
+            color: #f1cbd7;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-size: clamp(32px, 5vw, 48px);
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #f9eaf0;
+        }
+
+        main {
+            margin-top: -30px;
+            margin-bottom: 50px;
+        }
+
+        .policy-card {
+            padding: clamp(22px, 5vw, 42px);
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            box-shadow: 0 14px 45px rgba(77, 20, 40, 0.08);
+        }
+
+        .updated {
+            display: inline-block;
+            margin-bottom: 25px;
+            padding: 6px 13px;
+            border-radius: 30px;
+            background: var(--pink);
+            color: var(--primary-dark);
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .policy-section {
+            padding: 23px 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .policy-section:first-of-type {
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .policy-section h2 {
+            margin-bottom: 10px;
+            color: var(--primary);
+            font-size: 19px;
+            line-height: 1.5;
+        }
+
+        .policy-section p {
+            margin-bottom: 12px;
+        }
+
+        .policy-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section ul,
+        .policy-section ol {
+            padding-left: 25px;
+            margin: 10px 0;
+        }
+
+        .policy-section li {
+            padding-left: 4px;
+            margin-bottom: 7px;
+        }
+
+        .contact-box,
+        .notice-box {
+            padding: 18px;
+            border-radius: 14px;
+            background: var(--pink);
+            border: 1px solid #efd7e0;
+        }
+
+        .contact-box p {
+            margin-bottom: 8px;
+            overflow-wrap: anywhere;
+        }
+
+        .notice-box {
+            margin-top: 12px;
+            background: #fff8e9;
+            border-color: #f0dfb5;
+            font-size: 14px;
+        }
+
+        .footer {
+            padding: 0 20px 30px;
+            color: var(--muted);
+            text-align: center;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                padding: 25px 18px 55px;
+            }
+
+            .hero {
+                margin-top: 30px;
+            }
+
+            .policy-card {
+                border-radius: 16px;
+            }
+
+            .policy-section h2 {
+                font-size: 18px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .header {
+                background: white;
+                color: black;
+                padding: 20px 0;
+            }
+
+            .hero p,
+            .hero-label {
+                color: #444;
+            }
+
+            main {
+                margin-top: 0;
+            }
+
+            .policy-card {
+                padding: 0;
+                border: none;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="brand">
+                <div class="brand-logo">K</div>
+                <span>KampusKu</span>
+            </div>
+
+            <div class="hero">
+                <p class="hero-label">Privasi dan perlindungan data</p>
+                <h1>Kebijakan Privasi</h1>
+                <p>
+                    Kebijakan ini menjelaskan bagaimana informasi pengguna
+                    dikelola saat menggunakan aplikasi KampusKu.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="policy-card">
+
+            <span class="updated">
+                Terakhir diperbarui: 13 Oktober 2026
+            </span>
+
+            <section class="policy-section">
+                <h2>1. Pendahuluan</h2>
+                <p>
+                    Selamat datang di KampusKu, aplikasi mobile yang dirancang
+                    untuk membantu mahasiswa mengakses informasi seputar
+                    kegiatan akademik dan kehidupan kampus.
+                </p>
+                <p>
+                    Kebijakan Privasi ini menjelaskan bagaimana informasi
+                    pengguna dapat dikumpulkan, digunakan, disimpan, dan
+                    dikelola ketika menggunakan aplikasi KampusKu.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>2. Informasi yang Dikumpulkan</h2>
+                <p>
+                    Sesuai fitur yang digunakan dan implementasi aplikasi,
+                    informasi yang dapat diproses meliputi:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Informasi akun:</strong> nama, alamat email,
+                        dan kata sandi untuk pendaftaran serta autentikasi,
+                        apabila informasi tersebut diminta.
+                    </li>
+                    <li>
+                        <strong>Informasi akademik:</strong> fakultas,
+                        program studi, angkatan, atau kelas apabila
+                        dikumpulkan untuk menampilkan informasi yang sesuai.
+                    </li>
+                    <li>
+                        <strong>Bookmark:</strong> informasi yang dipilih
+                        pengguna untuk disimpan melalui fitur bookmark.
+                    </li>
+                    <li>
+                        <strong>Chatbot:</strong> pertanyaan yang dikirim
+                        pengguna untuk memperoleh informasi mengenai
+                        pengumuman dan event kampus.
+                    </li>
+                </ul>
+                <p>
+                    Informasi yang benar-benar diproses bergantung pada
+                    fitur yang digunakan dan implementasi teknis aplikasi.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>3. Tujuan Penggunaan Informasi</h2>
+                <p>Informasi digunakan sesuai kebutuhan untuk:</p>
+                <ol>
+                    <li>Mendukung pendaftaran dan login pengguna.</li>
+                    <li>Menampilkan informasi jadwal kuliah.</li>
+                    <li>Menyediakan pengumuman dan event kampus.</li>
+                    <li>Mendukung fitur bookmark.</li>
+                    <li>Memproses pertanyaan pada chatbot.</li>
+                    <li>Menjaga fungsi dan keamanan aplikasi.</li>
+                </ol>
+            </section>
+
+            <section class="policy-section">
+                <h2>4. Penyimpanan dan Keamanan Data</h2>
+                <p>
+                    KampusKu menggunakan backend dan basis data untuk
+                    mendukung fungsi aplikasi. Pengelola perlu menerapkan
+                    langkah keamanan yang sesuai untuk mengurangi risiko
+                    akses atau pengungkapan informasi tanpa izin.
+                </p>
+                <p>
+                    Kata sandi harus ditangani dengan mekanisme penyimpanan
+                    yang aman dan tidak disimpan sebagai teks biasa.
+                    Meskipun langkah keamanan diterapkan, tidak ada sistem
+                    yang dapat dijamin sepenuhnya bebas risiko.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>5. Pembagian Informasi kepada Pihak Ketiga</h2>
+                <p>
+                    Informasi dapat diproses oleh penyedia layanan teknis
+                    yang diperlukan untuk menjalankan aplikasi, misalnya
+                    penyedia hosting backend atau basis data, sesuai
+                    konfigurasi layanan yang digunakan.
+                </p>
+                <p>
+                    KampusKu tidak bermaksud menjual informasi pribadi
+                    pengguna. Pengelolaan dan pembagian data harus sesuai
+                    dengan kebutuhan layanan serta ketentuan yang berlaku.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>6. Jadwal, Pengumuman, dan Event</h2>
+                <p>
+                    KampusKu menyediakan informasi jadwal kuliah,
+                    pengumuman, dan event kampus. Informasi jadwal dapat
+                    disesuaikan berdasarkan data akademik yang tersedia.
+                </p>
+                <p>
+                    Untuk memastikan informasi penting, pengguna disarankan
+                    memeriksa sumber resmi dari pihak kampus.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>7. Chatbot</h2>
+                <p>
+                    Chatbot KampusKu menggunakan data dan backend KampusKu,
+                    bukan layanan AI eksternal. Chatbot dirancang untuk
+                    membantu menjawab pertanyaan mengenai pengumuman dan
+                    event berdasarkan data serta kemampuan yang tersedia.
+                </p>
+                <p>
+                    Pengguna disarankan tidak memasukkan kata sandi,
+                    informasi keuangan, atau data pribadi sensitif ke
+                    dalam percakapan chatbot.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>8. Penyimpanan dan Penghapusan Data</h2>
+                <p>
+                    Informasi disimpan sesuai kebutuhan operasional aplikasi
+                    dan tujuan pengumpulannya, dengan memperhatikan
+                    ketentuan yang berlaku.
+                </p>
+                <p>
+                    Saat ini, KampusKu belum menyediakan fitur atau prosedur
+                    penghapusan akun. Pengelola perlu menyiapkan mekanisme
+                    agar pengguna dapat meminta penghapusan akun dan data
+                    terkait, termasuk melalui halaman web, sebelum aplikasi
+                    dipublikasikan di Google Play.
+                </p>
+                <div class="notice-box">
+                    <strong>Catatan:</strong> jangan menganggap permintaan
+                    penghapusan akun sudah tersedia. Bagian ini perlu
+                    diperbarui setelah mekanisme penghapusan benar-benar
+                    dibuat dan dapat digunakan.
+                </div>
+            </section>
+
+            <section class="policy-section">
+                <h2>9. Hak Pengguna</h2>
+                <p>
+                    Pengguna dapat membaca kebijakan ini untuk mengetahui
+                    bagaimana informasi dikelola. Pengelola perlu menyediakan
+                    kontak yang aktif agar pengguna dapat mengajukan
+                    pertanyaan atau permintaan terkait data pribadi.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>10. Privasi Anak</h2>
+                <p>
+                    KampusKu ditujukan untuk mendukung kebutuhan informasi
+                    mahasiswa dan tidak secara khusus dirancang untuk
+                    mengumpulkan informasi pribadi anak-anak. Pengelola
+                    akan meninjau laporan mengenai pengumpulan informasi
+                    yang tidak semestinya dan mengambil tindakan yang sesuai.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>11. Perubahan Kebijakan Privasi</h2>
+                <p>
+                    Kebijakan ini dapat diperbarui apabila terdapat
+                    perubahan fitur atau cara pengelolaan data. Versi
+                    terbaru akan dipublikasikan pada halaman ini beserta
+                    tanggal pembaruannya.
+                </p>
+            </section>
+
+            <section class="policy-section">
+                <h2>12. Kontak</h2>
+                <div class="contact-box">
+                    <p>
+                        <strong>Nama aplikasi:</strong> KampusKu
+                    </p>
+                    <p>
+                        <strong>Pengelola:</strong> Pengelola aplikasi KampusKu
+                    </p>
+                    <p>
+                        <strong>Email kontak privasi:</strong>
+                        Belum ditentukan.
+                    </p>
+                    <p>
+                        Alamat email aktif harus ditambahkan sebelum
+                        kebijakan ini dipublikasikan agar pengguna memiliki
+                        cara untuk menghubungi pengelola.
+                    </p>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 KampusKu. Kebijakan Privasi.</p>
+    </footer>
+
+</body>
+</html>
